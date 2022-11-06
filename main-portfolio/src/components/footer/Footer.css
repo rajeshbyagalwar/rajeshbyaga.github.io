@@ -1,0 +1,10 @@
+.footer{
+
+   background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.owner{
+    padding: .8rem;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.project{
+    background-color: rgb(253, 246, 237);
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+}
+
+.usedTech>p{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: beige;
+    padding: 0rem .5rem;
+    font-size: 0.8rem;
+}
+.card>img{
+    height: 18rem;
+}
+.projectCard{
+    width:37rem ;
+    
+}
+@media only screen and (max-width: 1080px) {
+    .projectCard{
+        width: 20rem;
+    }
+  }
+
+
+

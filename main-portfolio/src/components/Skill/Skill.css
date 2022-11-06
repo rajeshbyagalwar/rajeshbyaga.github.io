@@ -1,0 +1,36 @@
+.frontend{
+    
+    padding: 0.4rem 0rem;
+    border-radius: 3rem;
+    
+   
+}
+
+.skills{
+    background-color: rgb(253, 246, 237);
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+}
+
+.hosting{
+    
+    padding: 0.4rem 0rem;
+    border-radius: 3rem;
+    
+    
+}
+.techStackImg{
+    display: flex;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.techStackImg>img{
+    width: 4rem;
+    height: 4rem;
+}
+h6{
+    text-align: center;
+}
