@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
   
-        <p className='owner'>Created By Shivang</p>
+        <p className='owner'>Developed My Rajesh Byagalwar</p>
      
       
       
