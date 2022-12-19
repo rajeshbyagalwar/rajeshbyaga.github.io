@@ -23,6 +23,7 @@ const About = () => {
           A Full stack web Developer building the most interactive Websites and Web Application that leads to the success of the overall product
         </p>
         
+        <a href='https://drive.google.com/file/d/1Ooovh6pL6Qt1-d-QGqugWcpRY0H7jfkv/view?usp=sharing' target={'_blank'}><button style={{color:"white",backgroundColor: "black"}}>Resume</button></a>
       
     </div>
     </div>
