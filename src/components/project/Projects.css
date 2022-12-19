@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 880px) {
     .projectCard{
-        width: 30rem;
+        width: 20rem;
         /* border: 2px solid red; */
     }
     .main{
