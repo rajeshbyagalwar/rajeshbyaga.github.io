@@ -7,13 +7,13 @@ import { v4 as uuidv4 } from 'uuid';
 const Projects = ({projectRef}) => {
   const projects = [
     {
-      projectName:"Trip Adivsior",
+      projectName:"Urban Company",
       imgUrl:
-        "https://play-lh.googleusercontent.com/SOHKWI6RznrRqWVUSb6THa2bJNQPvjOTLsd4CSad_GCahf2fe2p4vE8FOKjtuudmL6E",
-      codeUrl: "https://github.com/rajeshbyaga/subsequent-airport-831",
-      websiteUrl: "https://lustrous-naiad-8bd481.netlify.app/index.html",
-      aboute: "Trip Advisior is Travel Website which suggest and clear information in details about different places and nearby locations",
-      tech: ["Javascript", "HTML ", "CSS ","BootStarp"],
+        "https://bestmediainfo.com/uploads/2020/01/UC-New-Logo_1.jpg",
+      codeUrl: "https://github.com/rajeshbyaga/Urban-Company",
+      websiteUrl: "https://urban-clap-clone.netlify.app/",
+      aboute: "Urban Company provides a platform that allows skilled and experienced professionals to connect with users looking for specific services.",
+      tech: ["React", "ChakraUi ", "CSS ","JavaScript"],
     },
     {
       projectName:"Naukari",
