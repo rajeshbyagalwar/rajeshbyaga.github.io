@@ -10,7 +10,7 @@ const Projects = ({projectRef}) => {
       projectName:"Trip Adivsior",
       imgUrl:
         "https://play-lh.googleusercontent.com/SOHKWI6RznrRqWVUSb6THa2bJNQPvjOTLsd4CSad_GCahf2fe2p4vE8FOKjtuudmL6E",
-      codeUrl: "https://github.com/vicky-ops/subsequent-airport-831",
+      codeUrl: "https://github.com/rajeshbyaga/subsequent-airport-831",
       websiteUrl: "https://lustrous-naiad-8bd481.netlify.app/index.html",
       aboute: "Trip Advisior is Travel Website which suggest and clear information in details about different places and nearby locations",
       tech: ["Javascript", "HTML ", "CSS ","BootStarp"],
