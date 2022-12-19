@@ -17,7 +17,7 @@
     width:37rem ;
     
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 880px) {
     .projectCard{
         width: 20rem;
     }
