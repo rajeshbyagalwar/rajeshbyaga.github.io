@@ -1,5 +1,13 @@
 .contect{
-    background-color: rgb(253, 246, 237);
+    /* background-color: rgb(250, 247, 244); */
     padding: 0.4rem 1rem;
     border-radius: 1rem;
+}
+
+@media only screen and (max-width: 880px){
+    .container{
+        /* width: 140%; */
+        /* border: 2px solid red; */
+        margin-left: 30px;
+    }
 }

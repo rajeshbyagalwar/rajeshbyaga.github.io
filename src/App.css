@@ -37,4 +37,21 @@
   }
 }
 
+@media only screen and (max-width: 880px){
+ .skl{
+  /* margin-left: 5px ; */
+  width: 100%;
+ }
+ .main{
+  /* border: 9px solid red; */
+  width: 120%;
+  margin-left: 20px;
+  /* margin: auto; */
+
+ }
+ /* .App{
+  width: 100%;
+  /* border: 3px solid blue; */
+ 
+}
 

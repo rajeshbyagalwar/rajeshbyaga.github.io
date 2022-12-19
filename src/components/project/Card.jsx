@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ imageUrl, codeUrl, websiteUrl, about, usedTech, projectName }) => {
   return (
-    <div>
+    <div className="main">
       <div className="card mx-3 projectCard my-2" >
         <img src={imageUrl} className="card-img-top" alt="..." />
         <div className="card-body">

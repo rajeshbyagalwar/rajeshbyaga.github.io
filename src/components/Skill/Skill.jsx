@@ -7,7 +7,7 @@ import "./Skill.css";
 
 const Skill = ({skillRef}) => {
   return (
-    <div className="container my-5" ref={skillRef}>
+    <div  className="container my-5" ref={skillRef}>
       <div className="skills">
         <h1 className="d-flex justify-content-center">SKILLS</h1>
       </div>

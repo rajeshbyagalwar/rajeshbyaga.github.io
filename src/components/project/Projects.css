@@ -12,15 +12,27 @@
 }
 .card>img{
     height: 18rem;
+    
 }
 .projectCard{
     width:37rem ;
     
 }
+
 @media only screen and (max-width: 880px) {
     .projectCard{
-        width: 20rem;
+        width: 30rem;
+        /* border: 2px solid red; */
     }
+    .main{
+        width: '100%';
+        /* border: 2px solid red; */
+         /* margin-left: 160px; */
+    }
+   .card-body{
+    /* border: 2px solid red; */
+    text-align: center;
+   }
   }
 
 

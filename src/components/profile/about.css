@@ -146,7 +146,9 @@
       .a{
         flex-direction: column;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 100px;
+        width: 100%;
+        /* margin-left: 70px; */
       }
   
       .a-left {
@@ -154,8 +156,9 @@
       }
   
       .a-card {
-        height: 350px;
-        width: 250px;
+        height: 320px;
+        width: 280px;
+        margin-left: 50px;
       }
   
       .a-card.bg, .a-award {

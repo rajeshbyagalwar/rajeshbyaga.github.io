@@ -23,8 +23,8 @@ const Backend = () => {
   ]
   return (
     <div>
-      <div>
-        <div className="frontend my-3 mx-2">
+      <div >
+        <div className="frontend my-3 mx-2" >
           <h4 className='d-flex justify-content-center'>Back End:</h4>
         </div>
         <div className="d-flex flex-wrap justify-content-center" >

@@ -2,7 +2,7 @@
     
     padding: 0.4rem 0rem;
     border-radius: 3rem;
-    
+   
    
 }
 
@@ -10,12 +10,15 @@
     background-color: rgb(253, 246, 237);
     padding: 0.4rem 1rem;
     border-radius: 1rem;
+    /* border: 2px solid red; */
+
 }
 
 .hosting{
     
     padding: 0.4rem 0rem;
     border-radius: 3rem;
+    /* border: 2px solid red; */
     
     
 }
@@ -25,12 +28,24 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* border: 2px solid red; */
+
 }
 
 .techStackImg>img{
     width: 4rem;
     height: 4rem;
+    /* border: 2px solid red; */
+
 }
 h6{
     text-align: center;
+}
+
+@media only screen and (max-width: 880px) {
+    .my-5{
+        /* border: 2px solid red; */
+        /* margin-left: 50px; */
+        width: 100%;
+    }
 }

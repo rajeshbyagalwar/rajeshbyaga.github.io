@@ -16,14 +16,16 @@ function App() {
   const skillRef = useRef();
   // const HomeRef = useRef();
   return (
-    <div className="">
-      <div>
+    <div className="main">
+      <div className="skl">
         {/* <Home /> */}
         <Navbar projectRef={projectRef} skillRef={skillRef} contectRef={contectRef} />
 
         <Profile />
         <div className="border my-5 container shadow-none p-3 mb-5 bg-light rounded">
+         <div >
           <Skill skillRef={skillRef}/>
+          </div>
           <Projects projectRef={projectRef} />
           <Github/>
           <Contect contectRef={contectRef}/>
