@@ -39,7 +39,7 @@ const Navbar = () => {
           <li>
             <Link
               activeClass="active"
-              to="/"
+              to="/home"
               onClick={() => animateScroll.scrollToTop()}
               spy={true}
               smooth={true}
@@ -98,12 +98,11 @@ const Navbar = () => {
           </li>
         
           <li   style={{cursor:"pointer"}}>
-            <a href="https://drive.google.com/file/d/1Ooovh6pL6Qt1-d-QGqugWcpRY0H7jfkv/view?usp=sharing">
+           <a href='https://drive.google.com/file/d/1Ooovh6pL6Qt1-d-QGqugWcpRY0H7jfkv/view?usp=sharing' target={'_blank'}>
               Resume
-            </a>
+              </a>
           </li>
           <li>
-            {/* <ThemeToggle/> */}
          </li>
         </ul>
       </header>

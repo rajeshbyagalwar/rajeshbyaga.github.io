@@ -9,14 +9,16 @@ import Profile from "./components/profile/Profile";
 import Projects from "./components/project/Projects";
 import Skill from "./components/Skill/Skill";
 import Github from "./components/Github/Github";
+import Home from "./components/Home/Home";
 function App() {
   const projectRef = useRef()
   const contectRef = useRef();
   const skillRef = useRef();
+  // const HomeRef = useRef();
   return (
     <div className="">
       <div>
-        
+        {/* <Home /> */}
         <Navbar projectRef={projectRef} skillRef={skillRef} contectRef={contectRef} />
 
         <Profile />
