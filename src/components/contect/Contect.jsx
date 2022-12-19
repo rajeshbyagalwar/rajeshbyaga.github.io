@@ -7,7 +7,7 @@ const Contect = ({contectRef}) => {
   
 
   return (
-      <div className='container my-5' ref={contectRef}>
+      <div id='contact' className='container my-5' ref={contectRef}>
           <div className='contect my-3'>
               <h1 className='d-flex justify-content-center'>Contact</h1>
 

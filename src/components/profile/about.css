@@ -15,12 +15,18 @@
   
   .a-right {
     flex: 1;
+    width: 500px;
+    /* border: 2px solid red; */
+    color:#333;
+    text-transform: uppercase;
   }
   
   .a-card.bg {
     position: absolute;
     top: 50px;
     left: 50px;
+    
+
     background-color: #333;
   }
   
@@ -46,14 +52,38 @@
   
   .a-title {
     font-weight: 400;
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 5px;
+   /*  Animation decalaration   */
+    animation-name: moveInleft;
+    animation-duration: 10s;
+    color: red;
   }
   
   .a-sub {
     margin: 20px 0px;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+  
+    animation-name: moveInRight;
+    animation-duration: 3s;
+    color: rgb(73, 73, 78);
   }
   
   .a-desc{
       font-weight: 300;
+      width: 80%;
+      margin: 20px 0px;
+      display: block;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    color: rgb(73, 73, 78);
+
   }
   
   .a-award{
@@ -72,8 +102,47 @@
       color: #555;
       margin-bottom: 10px;
   }
+  .text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;  
+  }
+
+  @keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
   
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:880px) {
       .a{
         flex-direction: column;
         text-align: center;
@@ -85,7 +154,8 @@
       }
   
       .a-card {
-        height: 50vh;
+        height: 350px;
+        width: 250px;
       }
   
       .a-card.bg, .a-award {
@@ -94,5 +164,14 @@
   
       .a-right{
         padding: 20px;
+        width: 480px;
+
+      }
+      .a-sub{
+        margin-left: 20px;
+      }
+      .a-desc{
+    margin-left: 20px;
+    width: 100%;
       }
   }
